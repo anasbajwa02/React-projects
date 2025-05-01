@@ -1,0 +1,10 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Mona Sans", sans-serif;
+}
+.container{
+  width: 100%;
+  display: flex;
+}
