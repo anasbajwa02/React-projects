@@ -24,60 +24,60 @@ const Main = () => {
 
 
   return (
-    <div className="main">
-      <div className="top">
-        <p className="title">Current Weather</p>
-        {/* <div className="buttons">
-          <button className="celcius">C</button>
-          <button className="farnhit">F</button>
+    <div classNameName="main">
+      <div classNameName="top">
+        <p classNameName="title">Current Weather</p>
+        {/* <div classNameName="buttons">
+          <button classNameName="celcius">C</button>
+          <button classNameName="farnhit">F</button>
         </div> */}
       </div>
 
-      <div className="mid">
+      <div classNameName="mid">
         <p>Today's Highlights</p>
       </div>
-      <div className="bottom">
-        <div className="cards">
-          <div className="card">
-            <p className="name">Pressure</p>
+      <div classNameName="bottom">
+        <div classNameName="cards">
+          <div classNameName="card">
+            <p classNameName="name">Pressure</p>
             <img src={assets.pressure} alt="" />
             <span>{weatherData.main.pressure} pa</span>
           </div>
-          <div className="card">
-            <p className="name">Humidity</p>
+          <div classNameName="card">
+            <p classNameName="name">Humidity</p>
             <img src={assets.humidity} alt="" />
             <span>{weatherData.main.humidity}%</span>
           </div>
-          <div className="card">
-            <p className="name">Speed</p>
+          <div classNameName="card">
+            <p classNameName="name">Speed</p>
             <img src={assets.wind} alt="" />
             <span>{weatherData.wind.speed}</span>
             <span>m/s</span>
           </div>
-          <div className="card">
-            <p className="name">Gust</p>
+          <div classNameName="card">
+            <p classNameName="name">Gust</p>
             <img src={assets.wind} alt="" />
             <span>{weatherData.wind.gust}</span>
             <span>m/s</span>
           </div>
-          <div className="card spec-card">
-            <p className="name">Sun rise & sun set</p>
-            <div className="first">
+          <div classNameName="card spec-card">
+            <p classNameName="name">Sun rise & sun set</p>
+            <div classNameName="first">
               <img src={assets.up} alt="" />
               <p>{sunrise}</p>
             </div>
-            <div className="second">
+            <div classNameName="second">
               <img src={assets.down} alt="" />
               <p>{sunset}</p>
             </div>
           </div>
-          <div className="card spec-card">
-            <p className="name">Max & Min Temp</p>
-            <div className="first">
+          <div classNameName="card spec-card">
+            <p classNameName="name">Max & Min Temp</p>
+            <div classNameName="first">
               <img src={assets.up} alt="" />
               <p>{weatherData.main.temp_max}°C</p>
             </div>
-            <div className="second">
+            <div classNameName="second">
               <img src={assets.down} alt="" />
               <p>{weatherData.main.temp_min}°C</p>
             </div>

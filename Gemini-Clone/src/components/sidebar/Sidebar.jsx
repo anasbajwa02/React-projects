@@ -13,25 +13,25 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="sidebar">
-      <div className="top">
+    <div classNameName="sidebar">
+      <div classNameName="top">
         <img
           src={assets.menu_icon}
           alt=""
-          className="menu"
+          classNameName="menu"
           onClick={() => setExtended((prev) => !prev)}
         />
-        <div className="new-chat" onClick={() => newChat()}>
+        <div classNameName="new-chat" onClick={() => newChat()}>
           <img src={assets.plus_icon} alt="" />
           {extended ? <p>New Chat</p> : null}
         </div>
         {extended ? (
-          <div className="recent">
-            <p className="recent-title">Recent</p>
+          <div classNameName="recent">
+            <p classNameName="recent-title">Recent</p>
             
             {prevPrompt.map((item, index) => {
               return (
-                <div onClick={() => loadPrompt(item)} className="recent-entry">
+                <div onClick={() => loadPrompt(item)} classNameName="recent-entry">
                   <img src={assets.message_icon} alt="" />
                   <p>{item.slice(0, 12)}...</p>
                 </div>
@@ -40,16 +40,16 @@ const Sidebar = () => {
           </div>
         ) : null}
       </div>
-      <div className="bottom">
-        <div className="bottom-item recent-history">
+      <div classNameName="bottom">
+        <div classNameName="bottom-item recent-history">
           <img src={assets.question_icon} alt="" />
           {extended ? <p>Get Help</p> : null}
         </div>
-        <div className="bottom-item recent-history">
+        <div classNameName="bottom-item recent-history">
           <img src={assets.history_icon} alt="" />
           {extended ? <p>Activity</p> : null}
         </div>
-        <div className="bottom-item recent-history">
+        <div classNameName="bottom-item recent-history">
           <img src={assets.setting_icon} alt="" />
           {extended ? <p>Setting</p> : null}
         </div>

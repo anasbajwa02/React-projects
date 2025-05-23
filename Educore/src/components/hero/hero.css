@@ -1,0 +1,36 @@
+.hero{
+    width: 100%;
+    background-image:linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url("../../assets/hero.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.text-section{
+    /* display: flex; */
+    text-align: center;
+    /* flex-direction: column; */
+    width: 60%;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 20px;
+}
+button{
+    padding: 15px 20px;
+    margin: 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 22px;
+    color: #757070;
+}
+img{
+    width: 25px;
+    /* margin: 5px 0 3px 0; */
+    
+}

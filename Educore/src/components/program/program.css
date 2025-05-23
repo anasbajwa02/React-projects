@@ -1,0 +1,64 @@
+.program{
+    display: flex;
+    justify-content: center;
+align-items: center;
+width: 100%;
+    flex-direction: column;
+    padding: 50px 0 0 0 ;
+    /* background-color: #212EA0; */
+}
+.program p{
+    color: #212EA0;
+    font-size: 24px;
+    font-weight: 600;
+}
+.program h3{
+    font-size: 36px;
+    margin: 20px 0 0 0
+}
+.program img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.images{
+    display: flex;
+    padding: 20px 20px;
+}
+.main-image{
+    /* padding: 50px 25px; */
+    margin: 50px 25px;
+    position: relative;
+
+}
+.caption{
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 4px;
+    right: 0px;
+    background-color: rgba(0, 15, 152, 0.3);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.4s;
+    padding-top:70% ;
+}
+.caption img{
+    width: 60px;
+    margin-bottom: 10px;
+}
+.caption p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main-image:hover .caption{
+    opacity: 1;
+    padding-top: 0%;
+}

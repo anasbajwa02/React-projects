@@ -1,0 +1,38 @@
+.container{
+    /* background-color: #333333; */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+}
+/* nav ul li:hover{
+    cursor: pointer;
+
+} */
+.logo{
+    width: 200px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+}
+nav ul button{
+    padding: 7px 25px;
+    color: #212121;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.dark-nav{
+    background-color: #1E33A5;
+    transition: 0.5s;
+}
+nav{
+    z-index: 10;
+}

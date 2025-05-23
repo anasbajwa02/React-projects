@@ -1,0 +1,35 @@
+.campus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.campus p{
+    color: #212EA0;
+    font-size: 24px;
+    font-weight: 600;
+}
+.campus h3{
+    font-size: 36px;
+    margin: 20px 00 0 0 ;
+}
+.campus .campus-images{
+    padding: 20px;
+}
+.campus .campus-images img{
+    width: 240px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.campus button{
+    background-color: #212EA0;
+    color: white;
+    font-size: 14px;
+    width: 200px;
+    /* padding: 10px; */
+
+}
+.campus button img{
+    width: 20px;
+margin: 0 0 0px 10px;
+}

@@ -7,41 +7,41 @@ const Main = () => {
     const {onSent,recentPrompt,showResult,loading,input,setInput,resultData } = useContext(Context);
    
   return (
-    <div className='main'>
-        <div className="nav">
+    <div classNameName='main'>
+        <div classNameName="nav">
             <p>Gemini</p>
             <img src={assets.user_icon} alt="" />
         </div>
-        <div className="main-container">
+        <div classNameName="main-container">
            {!showResult ? <>
-            <div className="greet">
+            <div classNameName="greet">
                 <p><span>Hello, Dev</span></p>
                 <p>How can I Help you today?</p>
             </div>
-            <div className="cards">
-                <div className="card">
+            <div classNameName="cards">
+                <div classNameName="card">
                     <p>Suggest beautiful places to see on an upcoming road trip!</p>
                     <img src={assets.compass_icon} alt="" />
                 </div>
-                <div className="card">
+                <div classNameName="card">
                     <p>Briefly summarize this concept: urban planning</p>
                     <img src={assets.bulb_icon} alt="" />
-                </div><div className="card">
+                </div><div classNameName="card">
                     <p>Brainstorm team bonding activities for our work retreat</p>
                     <img src={assets.message_icon} alt="" />
-                </div><div className="card">
+                </div><div classNameName="card">
                     <p>Improve the readability of the following code</p>
                     <img src={assets.code_icon} alt="" />
                 </div>
             </div>
-           </>: <div className='result'>
-            <div className="result-title">
+           </>: <div classNameName='result'>
+            <div classNameName="result-title">
                 <img src={assets.user_icon} alt="" />
                 <p>{recentPrompt}</p>
             </div>
-            <div className="result-data">
+            <div classNameName="result-data">
                 <img src={assets.gemini_icon} alt="" />
-                {loading ? <div className="loader">
+                {loading ? <div classNameName="loader">
                     <hr />
                     <hr />
                     <hr />
@@ -51,8 +51,8 @@ const Main = () => {
             </div>
             }
       
-        <div className="main-bottom">
-            <div className="search-box">
+        <div classNameName="main-bottom">
+            <div classNameName="search-box">
                 <input type="text" placeholder='Enter a Prompt here' onChange={(e)=>setInput(e.target.value)} value={input} />
                 <div>
                     <img src={assets.gallery_icon} alt="" />
@@ -62,7 +62,7 @@ const Main = () => {
                 </div>
             </div>
             
-            <p className="bottom-info">
+            <p classNameName="bottom-info">
             Gemini may display inaccurate info, including about people, so double-check its responses. Your privacy and Gemini Apps
             </p>
             </div>

@@ -1,0 +1,21 @@
+.vedio-player{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    /* scroll-behavior: unset; */
+}
+.vedio-player video{
+    width: 70%;
+    border: 5px solid white;
+
+}
+.hide{
+    display: none;
+}

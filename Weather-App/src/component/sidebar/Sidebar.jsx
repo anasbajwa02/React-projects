@@ -39,18 +39,18 @@ const hours = now.getHours();
 //    }else{
 //     imgRef.current.src = assets.snow
 //    }
-  return <div className="sidebar">
-    <div className="input">
+  return <div classNameName="sidebar">
+    <div classNameName="input">
     <input type="text" placeholder='Search For Place' onKeyDown={(e)=>handelOnKeyDown(e)} />
     {/* <img src={assets.search} alt="" /> */}
     </div>
-    <div className="main-img">
+    <div classNameName="main-img">
 
         {/* <img src={assets.clear} alt="" /> */}
         <WeatherImage weatherMain={weatherData?.weather?.[0]?.main} />
     </div>
-    <p className="temp">{weatherData.main.temp}°C</p><span>Feels like:{weatherData.main.feels_like}°C</span>
-    <div className="date">
+    <p classNameName="temp">{weatherData.main.temp}°C</p><span>Feels like:{weatherData.main.feels_like}°C</span>
+    <div classNameName="date">
         <div>
             <p>{day}--</p>
         <span>{hours}:00</span>
@@ -59,8 +59,8 @@ const hours = now.getHours();
       <div>  <p>city : {weatherData.name}</p></div>
     </div>
 
-    <p className="description">{weatherData.weather[0].main}</p>
-    <div className="description">Country : {weatherData.sys.country}</div>
+    <p classNameName="description">{weatherData.weather[0].main}</p>
+    <div classNameName="description">Country : {weatherData.sys.country}</div>
 
   </div>
 }

@@ -9,7 +9,7 @@ function App() {
 
   return (
     <WeatherProvider>
-    <div className="container">
+    <div classNameName="container">
       <Sidebar></Sidebar>
       <Main></Main>
     </div>

@@ -1,0 +1,17 @@
+.basic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 00 0 0;
+}
+.basic p{
+    color: #212EA0;
+    font-size: 24px;
+    font-weight: 600;
+}
+.basic h3{
+     margin: 20px;
+    font-size: 36px;
+    font-weight:700;
+}

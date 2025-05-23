@@ -1,0 +1,51 @@
+.about-uni{
+    color: #212EA0;
+    font-weight: 600;
+}
+.about h3{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+    width: 70%;
+}
+.description{
+    color: rgb(122, 122, 117);
+    margin: 20px 0 0 0;
+    width: 80%;
+
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    padding-bottom: 100px;
+
+}
+.image-section
+{
+    width: 25%;
+    position: relative;
+}
+.play{
+    position: absolute;
+    top:50%;
+    width: 60px;
+    cursor: pointer;
+    right: 15%;
+    /* translate: -50% -50%; */
+}
+.title-section{
+    margin: 0 0 0px 150px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.main-img{
+    width:370px;
+    
+    border-radius: 10px;
+    margin: 80px 0 0 50px;
+}

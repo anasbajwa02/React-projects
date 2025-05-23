@@ -1,0 +1,74 @@
+.contact{
+display: flex;
+justify-content: space-around;
+padding: 20px 50px;
+    
+}
+.contact .massage-section{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.massage-section h3{
+    font-size: 24px;
+font-weight: 500;
+}
+.massage-section h3 img{
+    width: 30px;
+}
+.massage-section p{
+    margin: 20px 0 0 0;
+    font-size: 16px;
+    color: rgb(103, 101, 101);
+}
+.massage-section ul{
+    margin: 20px 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+    color:rgb(103, 101, 101) ;
+    /* height: 100px; */
+}
+.massage-section ul li {
+    height: 27px;
+    display: flex;
+}
+.massage-section ul li img{
+    margin: 0px 10px 0 0;
+}
+.form-section{
+    width: 40%;
+}
+.contact form input, .contact form textarea{
+    display: block;
+    width: 80%;
+    background-color: #EBECFE;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+.contact button {
+    background-color: #212EA0;
+    color: white;
+    /* padding: 0px 0px; */
+    font-size: 14px;
+    margin: 20px 0 0 0;
+}
+.contact button img{
+    margin: 0px 0px 0 10px;
+    
+}
+ 
+.contact button:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+.contact span{
+    margin: 10px 0 0 10px;
+    color: grey;
+    display: block;
+}
