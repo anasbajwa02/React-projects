@@ -11,9 +11,9 @@ import icon from "../../assets/white-arrow.png"
 
 const Campus = () => {
   return (
-    <div classNameName="campus">
+    <div className="campus">
        
-        <div classNameName="campus-images">
+        <div className="campus-images">
             <img src={gallery1} alt="" />
             <img src={gallery2} alt="" />
             <img src={gallery3} alt="" />

@@ -48,10 +48,10 @@ const Contact = () => {
   };
 
   return (
-    <div classNameName="contact">
-      <div classNameName="massage-section">
-        <h3 classNameName="send-msg">Send us a message <img src={msg} alt="" /></h3>
-        <p classNameName="msg-title">
+    <div className="contact">
+      <div className="massage-section">
+        <h3 className="send-msg">Send us a message <img src={msg} alt="" /></h3>
+        <p className="msg-title">
           Feel free to reach out through contact form or find our contact information below. 
           Your feedback, questions, and suggestions are important to us as we strive to provide 
           exceptional service to our university community.
@@ -62,7 +62,7 @@ const Contact = () => {
           <li><img src={address} alt="" />Lahore Punjab , Pakistan</li>
         </ul>
       </div>
-      <div classNameName="form-section">
+      <div className="form-section">
         <form onSubmit={onSubmit}>
           <label>Your name</label>
           <input type="text" name="name" placeholder="Enter your name" required />

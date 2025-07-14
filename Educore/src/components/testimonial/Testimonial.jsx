@@ -69,31 +69,31 @@ if(tx == 0 ){
 
   return (
 
-   <div classNameName="testimonial">
-    {/* <p classNameName="testi-name">TESTIMONIALS</p>
-    <h3 classNameName="testi-title">What Student Says
+   <div className="testimonial">
+    {/* <p className="testi-name">TESTIMONIALS</p>
+    <h3 className="testi-title">What Student Says
     </h3> */}
-    <div classNameName="slider">
+    <div className="slider">
 
-        <img src={back} alt="" classNameName='btn back'  onClick={slideBackward} ref={backRef}/>
-        <img src={next} alt="" classNameName='btn next' onClick={slideForward} ref={nextRef} />
-        <div classNameName="cards">
+        <img src={back} alt="" className='btn back'  onClick={slideBackward} ref={backRef}/>
+        <img src={next} alt="" className='btn next' onClick={slideForward} ref={nextRef} />
+        <div className="cards">
             <ul ref={slider}>
                
                
             <li>
-                <div classNameName="card">
-                <div classNameName="upper">
-                    <div classNameName="img">
-                        <img src={user1} alt="" classNameName='user-img' />
+                <div className="card">
+                <div className="upper">
+                    <div className="img">
+                        <img src={user1} alt="" className='user-img' />
                     </div>
-                    <div classNameName="naming">
-                        <h2 classNameName="name">Emily Williams 1</h2>
-                        <p classNameName="detail">Edusity, USA</p>
+                    <div className="naming">
+                        <h2 className="name">Emily Williams 1</h2>
+                        <p className="detail">Edusity, USA</p>
                     </div>
                 </div>
-                <div classNameName="lower">
-                      <p classNameName="testi-description">
+                <div className="lower">
+                      <p className="testi-description">
                       Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
                       </p>
                 </div>
@@ -101,18 +101,18 @@ if(tx == 0 ){
                 </li>
 
                 <li>
-                <div classNameName="card">
-                <div classNameName="upper">
-                    <div classNameName="img">
-                        <img src={user1} alt="" classNameName='user-img' />
+                <div className="card">
+                <div className="upper">
+                    <div className="img">
+                        <img src={user1} alt="" className='user-img' />
                     </div>
-                    <div classNameName="naming">
-                        <h2 classNameName="name">Emily Williams 2</h2>
-                        <p classNameName="detail">Edusity, USA</p>
+                    <div className="naming">
+                        <h2 className="name">Emily Williams 2</h2>
+                        <p className="detail">Edusity, USA</p>
                     </div>
                 </div>
-                <div classNameName="lower">
-                      <p classNameName="testi-description">
+                <div className="lower">
+                      <p className="testi-description">
                       Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
                       </p>
                 </div>
@@ -120,36 +120,36 @@ if(tx == 0 ){
                 </li>
 
                 <li>
-                <div classNameName="card">
-                <div classNameName="upper">
-                    <div classNameName="img">
-                        <img src={user1} alt="" classNameName='user-img' />
+                <div className="card">
+                <div className="upper">
+                    <div className="img">
+                        <img src={user1} alt="" className='user-img' />
                     </div>
-                    <div classNameName="naming">
-                        <h2 classNameName="name">Emily Williams 3</h2>
-                        <p classNameName="detail">Edusity, USA</p>
+                    <div className="naming">
+                        <h2 className="name">Emily Williams 3</h2>
+                        <p className="detail">Edusity, USA</p>
                     </div>
                 </div>
-                <div classNameName="lower">
-                      <p classNameName="testi-description">
+                <div className="lower">
+                      <p className="testi-description">
                       Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
                       </p>
                 </div>
             </div>
                 </li>
                 <li>
-                <div classNameName="card">
-                <div classNameName="upper">
-                    <div classNameName="img">
-                        <img src={user1} alt="" classNameName='user-img' />
+                <div className="card">
+                <div className="upper">
+                    <div className="img">
+                        <img src={user1} alt="" className='user-img' />
                     </div>
-                    <div classNameName="naming">
-                        <h2 classNameName="name">Emily Williams 4</h2>
-                        <p classNameName="detail">Edusity, USA</p>
+                    <div className="naming">
+                        <h2 className="name">Emily Williams 4</h2>
+                        <p className="detail">Edusity, USA</p>
                     </div>
                 </div>
-                <div classNameName="lower">
-                      <p classNameName="testi-description">
+                <div className="lower">
+                      <p className="testi-description">
                       Choosing to pursue my degree at Edusity was one of the best decisions I've ever made. The supportive community, state-of-the-art facilities, and commitment to academic excellence have truly exceeded my expectations.
                       </p>
                 </div>

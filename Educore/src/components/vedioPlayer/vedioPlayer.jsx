@@ -11,7 +11,7 @@ const VedioPlayer = (prop) => {
 
     }
   return (
- <div classNameName={`vedio-player ${prop.playState ? " " : 'hide'}`  } onClick={handleOnClick} ref={player}>
+ <div className={`vedio-player ${prop.playState ? " " : 'hide'}`  } onClick={handleOnClick} ref={player}>
     <video src={video} autoPlay muted controls></video>
  </div>
   )

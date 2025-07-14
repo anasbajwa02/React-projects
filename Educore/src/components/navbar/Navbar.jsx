@@ -12,8 +12,8 @@ window.addEventListener("scroll",()=>{
   },[])
   
   return (
-    <nav classNameName={`container ${stickey  ?"dark-nav" : " "}`} >
-        <img src={logo} alt="" classNameName='logo' />
+    <nav className={`container ${stickey  ?"dark-nav" : " "}`} >
+        <img src={logo} alt="" className='logo' />
         <ul>
             <li><Link to="hero" smooth={true} offset={0} duration={500}>Home</Link></li>
             <li><Link to="program" smooth={true} offset={-230} duration={500}>Program</Link></li>
