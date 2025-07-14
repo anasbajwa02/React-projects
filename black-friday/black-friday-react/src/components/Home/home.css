@@ -1,0 +1,795 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-image: url('/home-images/main-bg.jpg');
+    background-size: cover;
+  background-position: center;
+    padding: 0px 50px;
+    z-index: 100;
+    opacity: 90%;
+}
+.logo img{
+    max-width: 300px;
+}
+.home .nav li{
+    list-style: none;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 30px;
+    margin-right: 130px;
+    font-size: 20px;
+}
+.home .nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    /* display: inline-block; */
+}
+.home .nav li a:hover{
+    color: #FC3746;
+    text-decoration: underline;
+}
+.home .bag{
+    color: #FC3746;
+    font-size: 50px;
+    margin-top: 15px;
+}
+.header-content{
+  background-image: url('/home-images/main-bg.jpg');
+    background-size: cover;
+  background-position: center;
+    padding:100px 0px;
+
+   
+    
+  
+}
+.header-details{
+     font-size: 64px;
+    text-align: center;
+    color: white;
+    margin: 10px 50px;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+.header-text{
+    color: #FC3746;
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: center;
+    font-family: "Kaushan Script", cursive;
+}
+  
+
+.header-details span{
+
+    color: #FC3746;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 0;
+}
+.header-content button{
+        width: 170px;
+    height: 50px;
+    background-color: #FC3746;
+    border: none;
+    /* padding: 0 0 50px 0; */
+
+}
+.header-content button:hover{
+    background-color: #9e2d37;
+
+}
+.header-content button a{
+ color: white;
+ text-decoration: none;
+ font-size: 20px;
+ font-weight: 600;
+ 
+}
+/* old */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Roboto Condensed;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background-color: #444444;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #FC3746;
+}
+:active{
+    color: #FC3746;
+}
+.header{
+    background-image: url("/home-images/main-bg.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Roboto Condensed; 
+}
+.logo-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    padding: 30px 0px 20px 50px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+.logo a span{
+    font-family: Kaushan Script;
+    font-size: 24px;
+    color:  rgb(255, 73, 85);
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: auto;
+    padding: 40px 40px 20px 0;
+}
+.nav-bar  li{
+    list-style: none;
+
+}
+.nav-bar  li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.nav-bar  li a:hover{
+    color: #FC3746;
+    text-decoration: overline;
+
+}
+.icon,details{
+    padding: 30px 70px 0 0;
+}
+.icon i{
+    color: #FC3746;
+    font-size: 40px;
+}
+summary{
+    color: #FC3746;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 10px 0 0 0;
+}
+.m-nav{
+    display: none;
+}
+details li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 15px 0 0 0;
+    background-color: #FC3746;
+    width: 100px;
+}
+details li:hover{
+    background-color: black;
+}
+details li a{
+    text-decoration: none;
+    color: white;
+}
+/* text in header */
+.header-cnt{
+    padding: 80px 0 0 0;
+}
+.cnt1{
+    display: flex;
+    justify-content: center;
+}
+.cnt1 h2{
+    font-family: Kaushan Script;
+    color: #FC3746;
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: center;
+}
+.cnt2{
+    font-size: 64px;
+    padding: 0px 90px 0 90px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    line-height: 1.5;
+}
+.cnt2 span{
+    color: #FC3746;
+
+}
+/* header button */
+.btn,.sale3-btn,.sale4-btn{
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 50px 0 ;
+}
+.btn button,.sale3-btn button,.sale4-btn button{
+    width: 170px;
+    height: 50px;
+    background-color: #FC3746;
+    border: none;
+}
+.btn button:hover,.sale3-btn button:hover,.sale4-btn button:hover{
+    background-color: #66080e;
+}
+.btn button a,.sale3-btn button a ,.sale4-btn button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;    font-family:Roboto Condensed;
+
+}
+/* sale1 */
+.sale1{
+    padding: 80px 0px 30px 0px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    background-image: url('/home-images/productbg.jpg');
+    background-position:center center;
+    background-size: cover;
+    width: 90%;
+    padding-bottom: 50px;
+    position: relative;
+}
+.content{
+    padding: 100px 0 0 50px;
+}
+.sl-cnt1,.sl2-cnt1{
+color: #FC3746;
+font-size:32px ;
+font-family: Kaushan Script;
+padding: 0 0 10px 0;
+
+}
+.sl-cnt2,.sl2-cnt2{
+    color: white;
+    font-size: 48px;
+    width: 420px;
+    line-height: 1;
+    letter-spacing: 1px;
+    font-weight: 800;
+padding: 0 0 10px 0;
+
+}
+.sl-cnt3,.sl2-cnt3{
+    color: white;
+    font-size:20px;
+padding: 0 0 10px 0;
+    width: 420px;
+}
+.sale-btn{
+    padding: 30px 0 0 50px;
+}
+.sale-btn button,.sale2-btn button{
+    width: 170px;
+    height: 50px;
+    background-color: #FC3746;
+    border: none;
+}
+.sale-btn button:hover,.sale2-btn button:hover{
+    background-color: #66080e;
+}
+.sale-btn button a,.sale2-btn button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;   
+     font-family:Roboto Condensed;
+}
+.product-img img{
+    position: absolute;
+    width: 350px;
+    left: 700px;
+    top: 30px;
+}
+/* sale2 */
+.sale2{
+    background-color: black;
+    position: relative;
+    padding: 0 0 30px 0;
+}
+.sale2 .content2{
+    padding: 200px 0 0 130px;
+}
+.sl2-cnt2{
+    font-size: 55px;
+    line-height: 1.2;
+    margin: 10px 0 0 0;
+    width: 550px;
+}
+.sl2-cnt2 span{
+    color: #FC3746;
+}
+.sl2-cnt3{
+    width: 520px;
+    margin: 10px 0 0 0;
+    color: whitesmoke;
+}
+.sale2-btn{
+    padding: 10px 0 0 130px;
+}
+
+.sale2-images .img1{
+position: absolute;
+top: 70px;
+right: 60px;
+width: 500px;
+}
+.sale2-images .img2{
+    position: absolute;
+    top: 100px;
+    width: 140px;
+    right: 520px;
+}
+/* product */
+.product-listing{
+    background-color: black;
+    padding: 80px 0 0 0;
+}
+.info .info1{
+    color: #FF4955;
+justify-content: center;
+display: flex;
+}
+.info .info1 h2{
+font-family: Kaushan Script;
+font-size: 32px;
+}
+.info .info2{
+    display: flex;
+    color: white;
+    padding: 10px 0 0 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info .info2 h2{
+    font-size: 55px;
+}
+.shape{
+    display: flex;
+    padding: 10px 0 0 0;
+    justify-content: center;
+}
+.sh{
+    width:100px;
+    height: 3px;
+    background-color: gray;
+}
+/* products */
+.products{
+    padding: 50px 40px 30px 40px;
+    /* display: flex; */
+}
+.product1,.product2,.product3,.product4{
+    width:20% ;
+}
+.pro-img1,.pro-img2,.pro-img3,.pro-img4{
+    height: 250px;
+    background-size: cover;
+}
+.pro-img1:hover,.pro-img2:hover,.pro-img3:hover,.pro-img4:hover{
+    transform: scale(1.1);
+    border: 4px solid #FC3746;
+}
+.pro{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.pro-img1{
+    background-image:url("/home-images/pro1.jpg") ;
+}
+.pro-img2{
+    background-image: url("/home-images/pro2.jpg");
+}
+.pro-img3{
+    background-image: url("/home-images/pro3.jpg");
+}
+.pro-img4{
+    background-image: url("/home-images/pro4.jpg");
+}
+.pdt-name{
+  padding-top: 20px;
+    color: white;
+}
+.price{
+    color: #FC3746;
+}
+.sale3{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 50px 0 0 0;
+}
+.sale3 .sale3-box{
+    width: 90%;
+    height: 550px;
+    background-image: url("/home-images/yellow.jpg");
+    background-position:center center;
+    filter: brightness(70%);
+    background-size: cover;
+}
+.sale3 .sale3-box:hover{
+    filter: brightness(100%);
+
+}
+.text{
+    margin: 140px 0 0 0;
+}
+.text1{
+    color: #FC3746;
+    display: flex;
+    justify-content: center;
+}
+.text1 h2{ 
+    font-family: Kaushan Script;
+    font-size: 36px;
+}
+.text2{
+    color: white;
+    padding: 10px 0 0 50px;
+    line-height: 1;
+}
+.text2 h2{
+    font-size: 64px;
+}
+.text2 h2 span{
+    color: #FC3746
+}
+.text3{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 0 0;
+}
+.text3 h2{
+    font-size: 20px;
+    color: white;
+}
+.note{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: #FC3746;
+    padding: 100px 0 50px 0;
+}
+.note h2{
+    font-size: 64px;
+font-family: Kaushan Script;
+text-align: center;
+
+}
+.note span{
+    color: white;
+font-family: Kaushan Script;
+
+}
+    .girl-img{
+        background-color: black;
+        /* padding: 0px 0px 0 0px;  */
+        display: flex;
+        justify-content: center;
+    }
+.home .img-box{
+    width: 90%;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("/home-images/girl.jpg");
+    background-position:center center;
+
+    filter: brightness(80%);
+}
+.client-says{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 0 0;
+}
+.coustmer{
+    display: flex;
+    justify-content: center;
+}
+.coustmer h2{
+    font-size: 44px;
+    color: white;
+}
+.client-says h2{
+font-family: Kaushan Script;
+color: #FC3746;
+font-size: 36px;
+}
+.feed-back{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0 0 0;
+}
+.feed-back h3{
+    color: white;
+    padding: 20px 0 0 0 ;
+}
+.feed-back1,.feed-back2{
+    width: 32%;
+    line-height: 1.3;
+    color: black;
+    font-weight: 700;
+}
+.sale4{
+    width: 100%;
+    height: 600px;
+    background-image: url("/home-images/black.jpg");
+    background-position:center center;
+    background-size: cover;
+    padding-top: 0px;
+}
+.t1,.t2,.t3{
+display: flex;
+justify-content: center;
+}
+.t1{
+    padding:100px 0 0 0;
+}
+.t2,.t3{
+    padding: 20px 0 0 0;
+}
+.t1 h3{
+    color: #FC3746;
+    font-size: 36px;
+    font-family: Kaushan Script;
+}
+.t2 h3{
+    font-size: 55px;
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+.t2 h3 span{
+    color: #FC3746;
+}
+.t3 p{
+    color: white;
+    width: 40%;
+    text-align: center;
+    font-size: 22px;
+}
+/* Media screen */
+@media only screen and (max-width: 1025px) {
+    .product-img img {
+        position: absolute;
+        width: 350px;
+        left: 499px;
+        top: 30px;
+    }
+    .sale2-btn {
+        padding: 10px 0 0 10px;
+    }
+    .sale2 .content2 {
+        padding: 200px 0 0 10px;
+    }
+    .sale2-images .img2 {
+        position: absolute;
+        top: 143px;
+        width: 100px;
+        right: 396px;
+    }
+    .sale2-images .img1 {
+        position: absolute;
+        top: 110px;
+        right: 87px;
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-bar{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    .m-nav{
+        display: block;
+    }
+    .content {
+        padding: 100px 0 0 10px;
+    }
+    .sl-cnt1, .sl2-cnt1 {
+        font-size: 28px;
+        padding: 0 0 10px 0;
+    }
+    .sl-cnt2, .sl2-cnt2 {
+        font-size: 40px;
+        width: 390px;
+        padding: 0 0 10px 0;
+    }
+    .sl-cnt3, .sl2-cnt3 {
+        font-size: 16px;
+        padding: 0 0 10px 0;
+        width: 350px;
+    }
+    .product-img img {
+        width: 280px;
+        left: 390px;
+        top: 70px;
+    }
+    .sale-btn {
+        padding: 20px 0 0 10px;
+    }
+    .sale2 .content2 {
+        padding: 150px 0 0 10px;
+    }
+    .sale2-btn {
+        padding: 10px 0 0 10px;
+    }
+    .sale2-images .img1 {
+        top: 100px;
+        right: 20px;
+        width: 350px;
+    }
+    .sale2-images .img2 {
+        top: 108px;
+        width: 90px;
+        right: 348px;
+    }    
+    .info .info2 h2 {
+        font-size: 40px;
+    }
+    .info .info1 h2 {
+        font-size: 28px;
+    }
+    .pro-img1, .pro-img2, .pro-img3, .pro-img4 {
+        height: 200px;
+        background-position: center center;
+    }
+    .text {
+        margin: 100px 0 0 0;
+    }
+    .sale3 .sale3-box {
+        width: 90%;
+        height: 470px;
+    }
+    .text2 h2 {
+        font-size: 45px;
+        text-align: center;
+    }
+    .text1 h2 {
+        font-family: Kaushan Script;
+        font-size: 30px;
+    }
+    .client-says {
+        padding: 50px 0 0 0;
+    }
+    .feed-back {
+        padding: 30px 0 0 0;
+    }
+    .t1 {
+        padding: 80px 0 0 0;
+    }
+    .t2 h3 {
+        font-size: 55px;
+        width: 80%;
+    }
+    .t3 p {
+        width: 70%;
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 426px) {
+    .icon, details {
+        padding: 30px 10px 0 0;
+    }
+    .logo {
+        padding: 30px 0px 20px 10px;
+
+    }
+    .cnt2 {
+        font-size: 28px;
+        padding: 10px 90px 0 90px;
+    }
+    .cnt1 h2 {
+        font-size: 22px;
+    }
+    .btn button, .sale3-btn button, .sale4-btn button {
+        width: 120px;
+    }
+    .btn, .sale3-btn, .sale4-btn {
+        padding: 30px 0 20px 0;
+    }
+    .product-img img {
+        width: 160px;
+        left: 110px;
+        top: 20px;
+    }
+    .content {
+        padding: 250px 0 10px;
+    }
+    .sale2 .content2 {
+        padding: 315px 0 0 10px;
+    }
+    .sale-btn button, .sale2-btn button {
+        width: 150px;
+    }
+    .sale2-images .img1 {
+        top: 20px;
+        right: 45px;
+        width: 270px;
+    }
+    .sale2-images .img2 {
+        top: 55px;
+        width: 90px;
+        right: 291px;
+    }
+    .product-listing {
+        padding: 40px 0 0 0;
+    }
+    .info .info1 h2 {
+        font-size: 20px;
+    }
+    .info .info2 h2 {
+        font-size: 28px;
+        text-align: center;
+        padding: 10px 55px;
+    }
+    .product1, .product2, .product3, .product4 {
+        width: 50%;
+        padding: 10px 10px;
+    }
+    .pdt-name {
+        font-size: 14px;
+    }
+    .note h2 {
+        font-size: 36px;
+    }
+    .coustmer {
+        padding: 10px 0 0 0;
+    }
+    .feed-back {
+        padding: 30px 0 0 20px;
+    }
+    .feed-back {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .img-box {
+        height: 650px;
+    }
+    .feed-back1, .feed-back2 {
+        width: 80%;
+    }
+    .coustmer h2 {
+        font-size: 30px;
+    }
+    .t1 h3 {
+        font-size: 30px;
+    }
+    .t2 h3 {
+        font-size: 32px;
+    }
+    .t3 p {
+        width: 80%;
+        font-size: 16px;
+    }
+}

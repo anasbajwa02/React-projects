@@ -1,0 +1,104 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  padding: 0px 30px;
+  color: white;
+  position: relative;
+}
+
+/* Logo */
+.logo h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.logo h2 span {
+  color: crimson;
+}
+
+/* Nav Bar */
+.nav-bar {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.nav-bar li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-bar li a:hover {
+  color: crimson;
+}
+
+/* Icon Bag */
+.icon.bag {
+  font-size: 2.5rem;
+  color: crimson;
+  cursor: pointer;
+}
+
+/* Mobile Nav */
+.m-nav {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 20px;
+  background-color: #222;
+  border: 1px solid #444;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.m-nav summary {
+  list-style: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  margin-left: 15px;
+}
+
+.m-nav li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+.m-nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.m-nav a:hover {
+  color: crimson;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+
+  .m-nav {
+    display: block;
+  }
+
+  .icon.bag {
+    margin-left: 10px;
+  }
+}
