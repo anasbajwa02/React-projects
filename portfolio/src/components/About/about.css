@@ -32,3 +32,38 @@
     font-weight: 600;
     margin: 20px;
 }
+.experties{
+    padding: 0px 20px 30px 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.exp-single {
+    background-color: #2D3136;
+   width: 30%;
+   height: 400px;
+   border-radius: 10px;
+   margin: 30px 0 0 0;
+
+   padding: 30px 20px;
+   
+
+}
+.experties .exp-single h2{
+    color: #0BCEAF;
+    font-size: 18px;
+}
+.experties .exp-single ul{
+    margin-top: 20px;
+}
+.experties .exp-single ul li{
+    color: white;
+    margin:10px  0 0 20px;
+
+}
+.experties .exp-single ul li::marker{
+    color: #0BCEAF;
+    font-size: 24px;
+}
+
