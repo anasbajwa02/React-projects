@@ -1,0 +1,15 @@
+.tab-bar-container {
+    background-color: #24292E;
+    width: 80px;
+    color: #969a9a;
+    font-size: 30px;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+}
+.tab-bar-container .upper-icons, .lower-icons{
+    margin: 20px  0 0 20px;
+    cursor: pointer;
+}
+

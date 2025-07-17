@@ -1,0 +1,80 @@
+.header-container {
+    background-color: #24292E;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 3px 0;
+    border-bottom: 1px solid rgb(76, 73, 73);}
+.header-container img{
+    width: 20px;
+    margin: 5px 0 0 0;
+}
+.header-container ul{
+    list-style: none;
+}
+.header-container .lists ul{
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.header-container .menu{
+    display: flex;
+    margin: 0 0 0 10px;
+    /* padding: 10px 0 0 0px; */
+}
+.header-container .lists ul li{
+    margin: 8px 0 0 10px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.header-container .lists{
+    margin: 2px 0 0 10px;
+    cursor: pointer;
+}
+.header-container .name{
+    flex-direction: row-reverse;
+    display: flex;
+}
+.header-container .name h2{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+}
+.header-container .circles .circle1,.circle2,.circle3{
+    width: 15px;
+    height: 15px;
+    /* background-color: antiquewhite; */
+    border-radius: 50%;
+    margin: 0px 5px 00 0;
+
+}
+.header-container .circles .circle1{
+    background-color: #F6E05E;
+}
+.header-container .circles .circle1:hover{
+    background-color: #f3e077;
+}
+.header-container .circles .circle2{
+    background-color: #68D391;
+}
+.header-container .circles .circle2:hover{
+    background-color: #7bd49d;
+}
+.header-container .circles .circle3{
+    background-color: #f39c9c;
+}
+.header-container .circles .circle3:hover{
+    background-color: #fa9b9b;
+}
+
+
+.header-container .circles {
+    margin: 10px 0 00 0;
+    display: flex;
+    flex-direction: row-reverse;
+    cursor: pointer;
+}
+.menus,.circles,.name{
+    width: 33.333%;
+}

@@ -1,0 +1,63 @@
+.home-container{
+   background-color: #24292E;
+   
+}
+.desi-name{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+}
+.desi{
+    color: #0BCEAF;
+    font-size: 20px;
+    font-weight: 600;
+}
+.designation{
+    margin: 20px 0 0 50px;
+}
+.introduction
+{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+  
+}
+.details{
+    /* width: 100%; */
+    width: 60%;
+}
+.contact-details div,.education-details div, .social-media div{
+    display: flex;
+    padding: 5px 0;
+}
+
+.details div h2 ,.social-media a{
+    font-size: 14px;
+    color: #a9adb1;
+    margin: 5px 0 0 10px;
+}
+.contact-details div .intro-icon,.education-details div .intro-icon,.social-media div .intro-icon{
+font-size: 24px;
+color: #a9adb1;
+}
+.contact-details,.education-details,.social-media {
+    border: 1px solid #1C4744;
+    width: 80%;
+    border-radius:10px ;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 10px #1C4744 ;
+    margin: 20px 0 0 50px;
+}
+
+.social-media a{
+    font-weight: 600;
+}
+
+.profile-img{
+    margin: 0px 0 0 30px;
+}
+.profile-img img{
+    width: 400px;
+    
+  
+}

@@ -1,0 +1,34 @@
+.about-details h2{
+    color: #0BCEAF;
+    font-size: 36px;
+}
+.about-details{
+    margin:30px 20px;
+}
+.about-details h4{
+    font-size: 18px;
+    color: rgb(179, 173, 173);
+    font-weight: 400;
+    line-height: 2;
+}
+.cv-down
+{
+    color: aliceblue;
+    background-color: #0BCEAF;
+    border: none;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 0 0 20px;
+}
+.cv-down a{
+    font-size: 15px;
+    font-weight: 500;
+}
+.about-experties h3{
+    color: #0BCEAF;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px;
+}

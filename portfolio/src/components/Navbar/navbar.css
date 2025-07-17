@@ -1,0 +1,33 @@
+.navbar-container{
+    background-color: #1F2428;
+    width: 250px;
+    letter-spacing: 1.5px;
+}
+
+.navbar-container h2{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 0 0 10px;
+}
+.navbar-container .nav-icons{
+    color: white;
+    margin: 20px 0 0 10px;
+    cursor: pointer;
+}
+
+.portfolio div:hover{
+        background-color: #454a50;
+}
+.nav-icons img{
+    width: 15px;
+    margin: 5px 0 0 0;
+}
+.nav-icons a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 0 0 10px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
