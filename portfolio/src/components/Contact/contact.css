@@ -45,5 +45,10 @@
     font-weight: 500;
     border-radius: 5px;
     margin: 20px 0 00 0;
+    cursor: pointer;
+
+}
+.contact-btn:hover{
+    background-color: #056656;
 
 }

@@ -1,0 +1,56 @@
+.theme-title{
+    color: #0bceaf;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+.theme-title h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+.themes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 100px ;
+}
+.vs-code,.night-owl{
+    width: 300px;
+    border-radius: 10px;
+    border: 5px solid #0bceaf;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    background-color: #24292E;
+    padding: 30px 20px 30px 20px;
+}
+.vs-code img,.night-owl img{
+    width: 80px;
+}
+.vs-code h2,.night-owl h2{
+    color: white;
+}
+.vs-code h4,.night-owl h4{
+    color: rgb(120, 124, 124);
+    font-size: 12px;
+}
+.vs-code button,.night-owl button{
+    background-color: #0bceaf;
+    color: white;
+    width: 250px;
+    font-size: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* night owl */
+.night-owl{
+    border: 5px solid #569CD6;       
+    background-color: #24292E;
+}
+.night-owl button{
+    background-color: #234c6d;
+}
