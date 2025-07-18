@@ -1,0 +1,49 @@
+.contact-info{
+    color: #6A9955;
+    font-size: 20px;
+    padding: 0 20px 20px 20px;
+    letter-spacing: 1.25px;
+   
+}
+.contact-info h6{
+    font-weight: 500;
+    margin: 5px 0 0 0;
+}
+.contact-icon{
+    font-size: 20px;
+    margin: 2px 0 0 0;
+}
+.contact-form{
+    color: #569CD6;
+    font-size: 12px;
+    word-spacing: 3px;
+     padding: 0 20px 20px 20px;
+
+}
+
+.contact-form span{
+    color: #9CDCFE;
+}
+.contact-form form label{
+    margin: 10px 0 0 0;
+    display: inline-block;
+}
+.contact-form form input{
+      background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    width: 200px;
+}
+.contact-btn{
+    color: white;
+    background-color: #0BCEAF;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 20px 0 00 0;
+
+}
