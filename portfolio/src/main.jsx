@@ -7,7 +7,7 @@ import About from './components/About/About'
 import Theme from './components/Theme/Theme'
 import Contact from './components/Contact/Contact'
 import Projects from './components/Projects/Projects'
-
+import { ThemeProvider } from './context/themeState.jsx';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +26,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <ThemeProvider>
    <RouterProvider router ={router}></RouterProvider>
+  </ThemeProvider>
   </StrictMode>,
 )

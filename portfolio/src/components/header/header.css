@@ -1,9 +1,10 @@
 .header-container {
-    background-color: #24292E;
+    /* background-color: #24292E; */
     display: flex;
     justify-content: space-between;
     padding: 0 0 3px 0;
-    border-bottom: 1px solid rgb(76, 73, 73);}
+    border-bottom: 1px solid rgb(76, 73, 73);
+}
 .header-container img{
     width: 20px;
     margin: 5px 0 0 0;

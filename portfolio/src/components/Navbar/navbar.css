@@ -2,6 +2,7 @@
     background-color: #1F2428;
     width: 250px;
     letter-spacing: 1.5px;
+    border-right: 1px solid #393E42;
 }
 
 .navbar-container h2{
@@ -30,4 +31,13 @@
     margin: 0 0 0 10px;
     font-weight: 300;
     letter-spacing: 1px;
+}
+.vscode-theme-navbar {
+  background-color:#1F2428;
+  color: white;
+}
+
+.night-owl-theme-navbar{
+  background-color: #011627;
+  color: #d6deeb;
 }

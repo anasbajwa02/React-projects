@@ -1,10 +1,15 @@
 import React from 'react'
 import "./navlist.css"
 import { Link } from 'react-router';
+import ThemeContext from '../../context/themeContext';
+import { useContext } from 'react'
 
 const NavList = () => {
+    const {theme} =useContext(ThemeContext)
   return (
-    <div className="navlist-container">
+   
+    <div className={`navlist-container ${theme ? "vscode-theme-navList" : "night-owl-theme-navList"}`}>
+
        
         <div>
             <img src="/javascript.webp" alt=""/>

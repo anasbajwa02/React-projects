@@ -1,10 +1,14 @@
 import React from 'react'
 import "./navbar.css"
 import { Link } from 'react-router';
-
+import { useContext } from 'react';
+import ThemeContext from '../../context/themeContext';
 const Navbar = () => {
+const {theme} = useContext(ThemeContext);
+
   return (
-    <div className="navbar-container">
+    <div className={`navbar-container ${theme ? "vscode-theme-navbar" : "night-owl-theme-navbar"}`}>
+    {/* <div className="navbar-container"> */}
         <h2>EXPLORER</h2>
         <div className="nav-icons">
             <details>

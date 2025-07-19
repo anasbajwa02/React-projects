@@ -7,7 +7,7 @@
     display: flex;
     background-color: #1F2428;
    width: 100%;
-
+    border-bottom: 1px solid #393E42;
    }
       .navlist-container h2{
         color: white;
@@ -33,3 +33,12 @@
         font-size: 12px;
         margin: 0 0 0 10px;
       }
+      .vscode-theme-navList {
+  background-color: #1F2428;
+  color: white;
+}
+
+.night-owl-theme-navList {
+  background-color: #011627;
+  color: #d6deeb;
+}

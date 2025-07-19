@@ -5,11 +5,11 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #24292E;
     height: 100vh;
     overflow: hidden;
 }
 .main{
+    background-color: #24292E;
     display: flex;
     flex-direction: column;
     max-width: 1400px;
@@ -45,4 +45,13 @@ body{
     overflow-y: auto;     /* 🔥 Vertical scroll for Outlet */
     /* padding: 20px; */
     /* background-color: #1e1e1e; */
+}
+.vscode-theme {
+  background-color: #24292E;
+  color: white;
+}
+
+.night-owl-theme {
+  background-color: #011627;
+  color: #d6deeb;
 }
