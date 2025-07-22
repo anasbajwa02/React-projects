@@ -1,5 +1,5 @@
 .about-details h2{
-    color: #0BCEAF;
+    /* color: #0BCEAF; */
     font-size: 36px;
 }
 .about-details{
@@ -27,7 +27,7 @@
     font-weight: 500;
 }
 .about-experties h3{
-    color: #0BCEAF;
+    /* color: #0BCEAF; */
     font-size: 25px;
     font-weight: 600;
     margin: 20px;
@@ -66,4 +66,3 @@
     color: #0BCEAF;
     font-size: 24px;
 }
-

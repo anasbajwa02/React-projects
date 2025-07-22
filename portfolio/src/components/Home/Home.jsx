@@ -9,9 +9,12 @@ import { FaGithub } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io";
 import { IoLogoFacebook } from "react-icons/io5";
 import { IoLogoInstagram } from "react-icons/io";
+import { useContext } from 'react';
+import ThemeContext from '../../context/themeContext';
 const Home = () => {
+    const { theme } = useContext(ThemeContext)
   return (
-   <div className="home-container">
+   <div className={`home-container ${theme ? "vscode-theme" : "night-owl-theme"}`}>
     <div className="designation">
         <h2 className='desi-name'>ANAS REHMAN</h2>
         <h2 className='desi'>Front End Developer | REACT</h2>
