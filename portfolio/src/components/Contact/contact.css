@@ -52,3 +52,38 @@
     background-color: #056656;
 
 }
+@media screen and (max-width:770px) {
+    .contact-info{
+    font-size: 18px;  
+}
+    .contact-icon{
+    font-size: 16px;
+  
+}
+}
+@media screen and (max-width:500px) {
+    .contact-info{
+    font-size: 13px;  
+}
+    .contact-icon{
+    font-size: 14px;
+  
+}
+.contact-form{
+    color: #569CD6;
+    font-size: 10px;
+    word-spacing: 3px;
+     padding: 0 20px 20px 20px;
+
+}
+}
+@media screen and (max-width:350px) {
+    .contact-info{
+    font-size: 10px;  
+}
+    .contact-icon{
+    font-size: 10px;
+  
+}
+
+}

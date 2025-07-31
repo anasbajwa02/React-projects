@@ -1,17 +1,20 @@
 
+
 .desi-name{
     color: white;
     font-size: 36px;
     font-weight: 700;
 }
 .desi{
-    /* color: #0BCEAF; */
+    
     font-size: 20px;
     font-weight: 600;
 }
 .designation{
     margin: 20px 0 0 50px;
+    
 }
+
 .introduction
 {
    width: 100%;
@@ -57,4 +60,58 @@ color: #a9adb1;
     width: 400px;
     
   
+}
+@media screen and (max-width:770px){
+ .introduction{
+    flex-direction: column-reverse;
+    /* justify-content: center; */
+    align-items: center;
+ }
+ .designation h2{
+    
+    text-align: center;
+}
+.details{
+    width: 90%;
+}
+}
+
+
+@media screen and (max-width:425px){
+     .desi-name{
+    font-size: 22px;
+}
+.desi{
+
+font-size: 16px;
+}
+.profile-img img{
+    width: 250px; 
+    margin: 20px 0 00 0;
+}
+.contact-details,.education-details,.social-media {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 20px 0 0 0px;
+}
+.details{
+    width: 80%;
+}
+
+}
+@media screen and (max-width:320px){
+ .desi-name{
+    font-size: 18px;
+}
+.desi{
+
+font-size: 14px;
+}
+.profile-img img{
+    width: 200px; 
+    margin: 20px 0 00 0;
+}
+.details{
+    width: 100%;
+}
 }

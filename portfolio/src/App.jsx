@@ -17,7 +17,9 @@ function App() {
       <div className="middle-section">
         <div className="sub-mds-1">
           <Tabbar />
+       
           <Navbar />
+          
         </div>
         <div className="sub-mds-2">
           <div className="sub-mds-2-1">

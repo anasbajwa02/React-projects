@@ -17,8 +17,8 @@ const Projects = () => {
             <h4>Responsive</h4>
           </div>
           <div className="preview-btns">
-            <a href="">Source</a>
-            <a href="">Demo</a>
+            <a href="https://github.com/anasbajwa02/React-projects/tree/main/Gemini-Clone" target="blank">Source</a>
+            {/* <a href="">Demo</a> */}
           </div>
         </div>
       </div>
@@ -39,8 +39,8 @@ const Projects = () => {
 
           </div>
           <div className="preview-btns">
-            <a href="">Source</a>
-            <a href="">Demo</a>
+            <a href="https://github.com/anasbajwa02/React-projects/tree/main/black-friday" target="blank">Source</a>
+            {/* <a href="">Demo</a> */}
           </div>
         </div>
       </div>
@@ -60,8 +60,8 @@ const Projects = () => {
             <h4>React icons</h4>
           </div>
           <div className="preview-btns">
-            <a href="">Source</a>
-            <a href="">Demo</a>
+            <a href="https://github.com/anasbajwa02/React-projects/tree/main/portfolio" target="blank">Source</a>
+            {/* <a href="">Demo</a> */}
           </div>
         </div>
       </div>
@@ -80,8 +80,8 @@ const Projects = () => {
             <h4>Responsive</h4>
           </div>
           <div className="preview-btns">
-            <a href="">Source</a>
-            <a href="">Demo</a>
+            <a href="https://github.com/anasbajwa02/React-projects/tree/main/Educore" target="blank">Source</a>
+            {/* <a href="">Demo</a> */}
           </div>
         </div>
       </div>
@@ -99,8 +99,8 @@ const Projects = () => {
             <h4>React icons</h4>
           </div>
           <div className="preview-btns">
-            <a href="">Source</a>
-            <a href="">Demo</a>
+            <a href="https://github.com/anasbajwa02/React-projects/tree/main/Weather-App" target="blank">Source</a>
+            {/* <a href="">Demo</a> */}
           </div>
         </div>
       </div>
@@ -119,7 +119,7 @@ const Projects = () => {
           </div>
           <div className="preview-btns">
             <a href="https://github.com/anasbajwa02/Password-Genrater" target="blank">Source</a>
-            <a href="https://anasbajwa02.github.io/Password-Genrater/" target="blank">Demo</a>
+            {/* <a href="https://anasbajwa02.github.io/Password-Genrater/" target="blank">Demo</a> */}
           </div>
         </div>
       </div>

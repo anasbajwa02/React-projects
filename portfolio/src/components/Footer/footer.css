@@ -1,16 +1,15 @@
 .footer-container {
     color: white;
-    /* background-color: #24292E; */
     font-size: 12px;
     font-weight: 400;
     padding: 0px;
     display: flex;
     justify-content: space-between;
-    /* position: fixed; */
+   
 }
 .footer-container .left-footer-icons .node-img , .footer-container .left-footer-icons .cross-img ,.warning-img ,.footer-container .right-footer-icons .js-brackets-img,.footer-container .right-footer-icons .tick-img ,.footer-container .right-footer-icons .bell-img {
-    color: #0BCDAF;
-    font-size: 18px;
+    color: aquamarine;
+    font-size: 24px;
 margin: 0 0 0 10px;
 padding: 0 0 0 10px;
 
@@ -20,4 +19,30 @@ padding: 0 0 0 10px;
 .footer-container .left-footer-icons,.right-footer-icons{
     padding: 5px 0 0 0;
     margin: 0 0 0 10px;
+}
+
+@media screen and (max-width:426px) {
+    .footer-container .left-footer-icons .node-img , .footer-container .left-footer-icons .cross-img ,.warning-img ,.footer-container .right-footer-icons .js-brackets-img,.footer-container .right-footer-icons .tick-img ,.footer-container .right-footer-icons .bell-img {
+    color: aquamarine;
+    font-size: 18px;
+margin: 0 0 0 5px;
+padding: 0 0 0 5px;
+
+}
+.footer-container {
+    font-size: 8px;
+}
+
+
+}
+@media screen and (max-width:375px) {
+    .footer-container .left-footer-icons .node-img , .footer-container .left-footer-icons .cross-img ,.warning-img ,.footer-container .right-footer-icons .js-brackets-img,.footer-container .right-footer-icons .tick-img ,.footer-container .right-footer-icons .bell-img {
+    color: aquamarine;
+    font-size: 15px;
+margin: 0 0 0 5px;
+padding: 0 0 0 5px;
+
+}
+
+
 }

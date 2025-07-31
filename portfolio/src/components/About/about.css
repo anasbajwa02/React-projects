@@ -1,7 +1,3 @@
-.about-details h2{
-    /* color: #0BCEAF; */
-    font-size: 36px;
-}
 .about-details{
     margin:30px 20px;
 }
@@ -65,4 +61,40 @@
 .experties .exp-single ul li::marker{
     color: #0BCEAF;
     font-size: 24px;
+}
+
+@media screen and (max-width:800px) {
+    .exp-single{
+   width: 40%;
+    }
+    .experties{
+    justify-content: space-around;
+}
+}
+@media screen and (max-width:500px) {
+    .exp-single{
+   width: 90%;
+    }
+    .experties{
+    justify-content: space-around;
+}
+}
+
+@media screen and (max-width:400px) {
+    .about-details h4{
+    font-size: 16px;
+    
+    line-height: 1.5;
+}
+.cv-down
+{
+    color: aliceblue;
+    background-color: #0BCEAF;
+    border: none;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 0 0 20px;
+}
 }

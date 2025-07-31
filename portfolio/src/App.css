@@ -48,10 +48,9 @@ body{
 
 .sub-mds-2-2 {
     flex: 1;
-    overflow-y: auto;     /* 🔥 Vertical scroll for Outlet */
-    /* padding: 20px; */
-    /* background-color: #1e1e1e; */
-}
+    overflow-y: auto;    
+    }
+
 .vscode-theme {
   background-color: #24292E;
   color: var(--vscode-color);
@@ -60,4 +59,13 @@ body{
 .night-owl-theme {
   background-color: #011627;
   color: var(--nightowl-color);
+}
+
+
+/* media queries */
+
+@media screen and (max-width:770px){
+.sub-mds-1 > *:nth-child(2){
+display: none;
+}
 }

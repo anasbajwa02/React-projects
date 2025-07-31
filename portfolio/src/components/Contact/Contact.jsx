@@ -15,7 +15,7 @@ const Contact = () => {
          <h6> * <IoCall className='contact-icon'/>  Phone: +92 3154297874</h6>
          <h6> * <FaWhatsapp className='contact-icon'/> WhatsApp: +92 3154297874</h6>
          <h6> * <IoLogoGithub className='contact-icon'/> GitHub: https://github.com/anasbajwa02?tab=repositories</h6>
-         <h6> * <IoLogoLinkedin className='contact-icon'/> GitHub: https://www.linkedin.com/feed/</h6>
+         <h6> * <IoLogoLinkedin className='contact-icon'/> LinkedIn: https://www.linkedin.com/feed/</h6>
          <h6> * <IoLogoFacebook className='contact-icon'/> https://www.facebook.com/anas.rehman.02/</h6>
          <h6> * <IoLogoInstagram className='contact-icon'/> https://www.instagram.com/anas_bajwa_02/</h6>
          <h6>*/</h6>

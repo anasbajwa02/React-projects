@@ -9,12 +9,11 @@
 
 }
 .project{
-    width: 250px;
+    width: 30%;
     background-color: #1F2428;
     border: 1px solid #30485D;
     border-radius: 10px;
     margin: 30px 0 0 0;
-    /* padding: 0px 20px; */
 }
 .project:hover{
     box-shadow: 0px 0px 10px #30485D ;
@@ -24,7 +23,7 @@
     padding: 20px 20px;
 }
 .project img{
-    width:248px;
+    width:100%;
     border-radius: 10px 10px 0px 0px;
     height: 150px;
 }
@@ -62,4 +61,27 @@
     color: #119985;
     font-size: 15px;
     text-decoration: none;
+}
+@media screen and (max-width:900px) {
+.project{
+    width: 45%;
+    
+}
+
+}
+@media screen and (max-width:800px) {
+.project{
+    width: 70%;
+    
+}
+
+
+}
+@media screen and (max-width:500px) {
+.project{
+    width: 95%;
+    
+}
+
+
 }
